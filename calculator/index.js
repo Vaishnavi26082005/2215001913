@@ -7,7 +7,7 @@ import calculateAvg from './utils/calculateAvg.js';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 9876;
 const WINDOW_SIZE = parseInt(process.env.WINDOW_SIZE, 10) || 10;
 let numberWindow = [];
 
